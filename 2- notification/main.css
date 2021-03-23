@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    border-radius: 0.9rem;
+    background-color: rgb(235, 44, 161);
+    outline: none;
+    padding: 10px;
+}
+
+.notes {
+    background-color: rgb(218, 0, 176);
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    border-radius: 0.5rem;
+}
+
+#container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px
+}

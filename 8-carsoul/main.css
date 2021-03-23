@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carsol {
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.img-container {
+    display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    width: 600px;
+    height: 600px;
+}

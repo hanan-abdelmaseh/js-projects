@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
